@@ -256,9 +256,7 @@ display: flex;
     width: 100%;
 }
 
-.team-item:first-child {
-    border-radius: 0 0 4px 4px;
- }
+
  .team-item img {
      display: block;
      width: 100%; 
@@ -285,6 +283,9 @@ display: flex;
     text-align: center;
 }
 
+.team-card-first {
+    border-radius: 0 0 4px 4px; 
+}
 /* Portfolio Section */
 
 .portfolio {
