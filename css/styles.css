@@ -256,11 +256,13 @@ display: flex;
     width: 100%;
 }
 
-.team-card {
-    background-color: #ffffff;
-    text-align: center;
-    
-}
+.team-item:first-child {
+    border-radius: 0 0 4px 4px;
+ }
+ .team-item img {
+     display: block;
+     width: 100%; 
+    }
 
 .team-name {
     font-weight: 500;
