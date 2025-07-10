@@ -278,9 +278,9 @@ display: flex;
     text-align: center;
 }
 
-.team-card-first {
-    border-radius: 0 0 4px 4px; 
-}
+.team-item:first-child {
+    border-radius: 0 0 4px 4px;
+ }
 /* Portfolio Section */
 
 .portfolio {
