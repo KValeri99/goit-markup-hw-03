@@ -359,6 +359,7 @@ display: flex;
 
 .portfolio-item {
     border: 1px solid #e7e9fc;
+    border-top: none;
     width: calc((100% - 48px) / 3); 
 }
 
